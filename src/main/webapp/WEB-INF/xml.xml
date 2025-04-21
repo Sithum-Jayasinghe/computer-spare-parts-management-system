@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+      <!-- SUPPLIER PACKAGE -->
+
+     <servlet>
+     	<servlet-name>insertsupplierservlet </servlet-name>
+     	<servlet-class>supplierpackage.insertsupplierservlet</servlet-class>
+     </servlet>
+     
+     
+     <servlet-mapping>
+     	<servlet-name>insertsupplierservlet</servlet-name>
+     	<url-pattern>/insertsupplierservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>getallsupplierservlet </servlet-name>
+     	<servlet-class>supplierpackage.getallsupplierservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>getallsupplierservlet</servlet-name>
+     	<url-pattern>/getallsupplierservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>updatesupplierservlet </servlet-name>
+     	<servlet-class>supplierpackage.updatesupplierservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>updatesupplierservlet</servlet-name>
+     	<url-pattern>/updatesupplierservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>deletesupplierservlet </servlet-name>
+     	<servlet-class>supplierpackage.deletesupplierservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>deletesupplierservlet</servlet-name>
+     	<url-pattern>/deletesupplierservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+      <!-- ITEM PACKAGE -->
+     
+     
+      <servlet>
+     	<servlet-name>insertitemservlet </servlet-name>
+     	<servlet-class>itempackage.insertitemservlet</servlet-class>
+     </servlet>
+     
+     
+     <servlet-mapping>
+     	<servlet-name>insertitemservlet</servlet-name>
+     	<url-pattern>/insertitemservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>getallitemservlet </servlet-name>
+     	<servlet-class>itempackage.getallitemservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>getallitemservlet</servlet-name>
+     	<url-pattern>/getallitemservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>updateitemservlet </servlet-name>
+     	<servlet-class>itempackage.updateitemservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>updateitemservlet</servlet-name>
+     	<url-pattern>/updateitemservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>deleteitemservlet </servlet-name>
+     	<servlet-class>itempackage.deleteitemservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>deleteitemservlet</servlet-name>
+     	<url-pattern>/deleteitemservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+      <!-- PAYMENT PACKAGE -->
+
+     <servlet>
+     	<servlet-name>insertpaymentservlet </servlet-name>
+     	<servlet-class>paymentpackage.insertpaymentservlet</servlet-class>
+     </servlet>
+     
+     
+     <servlet-mapping>
+     	<servlet-name>insertpaymentservlet</servlet-name>
+     	<url-pattern>/insertpaymentservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+       <servlet>
+     	<servlet-name>getallpaymentservlet </servlet-name>
+     	<servlet-class>paymentpackage.getallpaymentservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>getallpaymentservlet</servlet-name>
+     	<url-pattern>/getallpaymentservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>updatepaymentservlet </servlet-name>
+     	<servlet-class>paymentpackage.updatepaymentservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>updatepaymentservlet</servlet-name>
+     	<url-pattern>/updatepaymentservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>deletepaymentservlet </servlet-name>
+     	<servlet-class>paymentpackage.deletepaymentservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>deletepaymentservlet</servlet-name>
+     	<url-pattern>/deletepaymentservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+       <!-- FEEDBACK PACKAGE -->
+
+     <servlet>
+     	<servlet-name>insertfeedbackservlet </servlet-name>
+     	<servlet-class>feedbackpackage.insertfeedbackservlet</servlet-class>
+     </servlet>
+     
+     
+     <servlet-mapping>
+     	<servlet-name>insertfeedbackservlet</servlet-name>
+     	<url-pattern>/insertfeedbackservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+       <servlet>
+     	<servlet-name>getallfeedbackservlet </servlet-name>
+     	<servlet-class>feedbackpackage.getallfeedbackservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>getallfeedbackservlet</servlet-name>
+     	<url-pattern>/getallfeedbackservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>updatefeedbackservlet </servlet-name>
+     	<servlet-class>feedbackpackage.updatefeedbackservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>updatefeedbackservlet</servlet-name>
+     	<url-pattern>/updatefeedbackservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+         <servlet>
+     	<servlet-name>deletefeedbackservlet </servlet-name>
+     	<servlet-class>feedbackpackage.deletefeedbackservlet</servlet-class>
+     </servlet>
+     
+     
+     
+     <servlet-mapping>
+     	<servlet-name>deletefeedbackservlet</servlet-name>
+     	<url-pattern>/deletefeedbackservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+     
+     
+      <!-- USER SYSTEM -->
+     
+     <servlet>
+     	<servlet-name>userinsertservlet </servlet-name>
+     	<servlet-class>userpackage.userinsertservlet</servlet-class>
+     </servlet>
+     
+     
+     <servlet-mapping>
+     	<servlet-name>userinsertservlet</servlet-name>
+     	<url-pattern>/userinsertservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     <servlet>
+     	<servlet-name>loginServlet </servlet-name>
+     	<servlet-class>userpackage.loginservlet</servlet-class>
+     </servlet>
+     
+     
+     <servlet-mapping>
+     	<servlet-name>loginservlet</servlet-name>
+     	<url-pattern>/loginservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+     <servlet>
+     	<servlet-name>profileservlet </servlet-name>
+     	<servlet-class>userpackage.profileservlet</servlet-class>
+     </servlet>
+     
+     
+     <servlet-mapping>
+     	<servlet-name>profileservlet</servlet-name>
+     	<url-pattern>/profileservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+        
+     <servlet>
+     	<servlet-name>updateprofileservlet </servlet-name>
+     	<servlet-class>userpackage.updateprofileservlet</servlet-class>
+     </servlet>
+     
+     
+     <servlet-mapping>
+     	<servlet-name>updateprofileservlet</servlet-name>
+     	<url-pattern>/updateprofileservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+      <servlet>
+     	<servlet-name>accountdeleteservlet </servlet-name>
+     	<servlet-class>userpackage.accountdeleteservlet</servlet-class>
+     </servlet>
+     
+     
+     <servlet-mapping>
+     	<servlet-name>accountdeleteservlet</servlet-name>
+     	<url-pattern>/accountdeleteservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+    
+     
+    
+     
+
+</web-app>

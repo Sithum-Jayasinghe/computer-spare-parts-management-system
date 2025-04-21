@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* General Page Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form Container */
+form {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Heading */
+h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 25px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  vertical-align: top;
+  color: #333;
+}
+
+/* Input & Select Fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus State for Inputs */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #0055a5;
+  outline: none;
+}
+
+/* Submit Button */
+input[type="submit"] {
+  background-color: #003366;
+  color: white;
+  border: 2px solid #003366;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect for Submit Button */
+input[type="submit"]:hover {
+  background-color: white;
+  color: #003366;
+}

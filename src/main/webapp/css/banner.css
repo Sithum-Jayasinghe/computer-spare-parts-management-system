@@ -1,0 +1,23 @@
+.banner-container {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark transparent overlay */
+}

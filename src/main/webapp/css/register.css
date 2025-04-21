@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* General Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form Container */
+form {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Heading */
+h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 25px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 12px;
+  color: #333;
+  vertical-align: top;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus State */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #0055a5;
+  outline: none;
+}
+
+/* Submit Button Styling - Smaller and Centered */
+input[type="submit"] {
+  background-color: #003366;
+  color: white;
+  border: 2px solid #003366;
+  padding: 8px 20px;
+  font-size: 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  display: block;
+  margin: 20px auto 0;
+}
+
+/* Hover Effect for Submit Button - White & Dark Blue */
+input[type="submit"]:hover {
+  background-color: white;
+  color: #003366;
+  box-shadow: 0 0 12px rgba(0, 51, 102, 0.4);
+  transform: translateY(-1px);
+}

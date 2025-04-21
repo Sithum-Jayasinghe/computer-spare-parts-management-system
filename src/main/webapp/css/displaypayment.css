@@ -1,0 +1,84 @@
+/* General Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Table Header */
+th {
+  background-color: #003366;
+  color: white;
+  font-weight: bold;
+}
+
+/* Table Row Hover Effect */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Search Input Styling */
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+#searchInput:focus {
+  border-color: #0055a5;
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #003366;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  margin: 5px;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #004080;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Action Button Container */
+td a {
+  text-decoration: none;
+}
+
+form {
+  display: inline-block;
+}
+
+/* Table Row Styling */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

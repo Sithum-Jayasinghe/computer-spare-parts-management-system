@@ -1,0 +1,84 @@
+/* Image Grid Layout */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+/* Image Card Styling */
+.image-section {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #003366; /* Border for the image */
+  border-radius: 8px; /* Rounded corners for the image container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Image Styling */
+.image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect on card */
+.image-section:hover {
+  background-color: #003366; /* Dark blue background on hover */
+  border-color: #fff; /* White border on hover */
+}
+
+.image-section:hover img {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Description Styling */
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show description on hover */
+.image-section:hover .description {
+  opacity: 1;
+}
+
+/* Button Styling */
+.hover-button {
+  display: inline-block;
+  background-color: white; /* Default background */
+  color: #003366; /* Default text color */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  border: 2px solid #003366; /* Dark blue border */
+}
+
+/* Hover effect for button */
+.hover-button:hover {
+  background-color: #003366; /* Dark blue background */
+  color: white; /* White text */
+  border: 2px solid #003366; /* Maintain dark blue border */
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  column-gap: 30px; /* Space between columns */
+  row-gap: 100px;    /* Space between rows */
+  padding: 40px;
+}
+

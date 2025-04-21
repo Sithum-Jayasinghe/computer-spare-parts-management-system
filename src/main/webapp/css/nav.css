@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* Navbar Container */
+.navbar {
+  background-color: #003366;
+  padding: 25px 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Flex layout for navbar */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left navigation links */
+.nav-links-left a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Right navigation (Register + Dropdown) */
+.nav-links-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Register button */
+.nav-links-right a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #0055a5;
+  padding: 8px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown-btn {
+  background-color: #0055a5;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dropdown content menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #003366;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dropdown show on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ===== Hover Effects (Common to All Links) ===== */
+
+/* Hover for left links */
+.nav-links-left a:hover,
+.nav-links-right a:hover,
+.dropdown-btn:hover,
+.dropdown-content a:hover {
+  background-color: white;
+  color: #003366;
+}
