@@ -56,7 +56,7 @@
 
 <!-- Slideshow Section (after navbar) -->
 <div class="slideshow-container">
-  <img src="images/m1.jpeg" class="slide-image" id="slideImage">
+  <img src="images/m3.jpeg" class="slide-image" id="slideImage">
 </div>
 
 
