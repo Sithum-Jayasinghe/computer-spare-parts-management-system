@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+ <link rel="stylesheet" type="text/css" href="css/updatepayment.css"> <!-- Link to the external CSS -->
 </head>
 <body>
 
