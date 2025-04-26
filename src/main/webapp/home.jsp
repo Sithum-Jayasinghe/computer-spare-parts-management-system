@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/main1.css"> <!-- Link to the external CSS -->
   <link rel="stylesheet" type="text/css" href="css/footer.css"> <!-- Link to the external CSS -->
    <link rel="stylesheet" type="text/css" href="css/banner.css"> <!-- Link to the external CSS -->
-   <link rel="stylesheet" type="text/css" href="css/text.css"> <!-- Link to the external CSS -->
+    <link rel="stylesheet" type="text/css" href="css/homebar.css"> <!-- Link to the external CSS -->
 </head>
 <body>
 
@@ -51,13 +51,17 @@
 
 
 
-<div class="banner-container">
-  <img src="images/m1.jpeg" alt="Computer Spare Parts Banner" class="banner-image">
-  <div class="overlay"></div>
+
+
+
+<!-- Slideshow Section (after navbar) -->
+<div class="slideshow-container">
+  <img src="images/m1.jpeg" class="slide-image" id="slideImage">
 </div>
 
 
 
+ 
 
 
 
@@ -101,7 +105,7 @@
     </div>
 
     <div class="image-section">
-        <img src="images/m1.jpeg" alt="Computer Spare Parts">
+        <img src="images/m2.jpeg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>
@@ -181,7 +185,7 @@
   </div>
 </footer>
 
-
+ <script src="home.js"></script>
 
 </body>
 </html>
