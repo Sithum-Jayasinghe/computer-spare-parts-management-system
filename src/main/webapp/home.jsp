@@ -20,10 +20,10 @@
     <div class="nav-container">
       <!-- Left Navigation Links -->
       <div class="nav-links-left">
-        <a href="insertfeedback.jsp">Feedback</a>
-        <a href="insertitem.jsp">Item</a>
+       <a href="insertitem.jsp">Item</a>
+         <a href="insertsupplier.jsp">Supplier</a>
         <a href="insertpayment.jsp">Payment</a>
-        <a href="insertsupplier.jsp">Supplier</a>
+        <a href="insertfeedback.jsp">Feedback</a>
         <a href="contactus.jsp">Contact Us</a>
       </div>
 
@@ -56,7 +56,7 @@
 
 <!-- Slideshow Section (after navbar) -->
 <div class="slideshow-container">
-  <img src="images/m3.jpeg" class="slide-image" id="slideImage">
+  <img src="images/m5.jpg" class="slide-image" id="slideImage">
 </div>
 
 
@@ -77,13 +77,31 @@
     You can add new items, manage payments, gather customer feedback, register suppliers, and maintain user records.
   </p>
 
-  <!-- See More Button -->
-  <div style="text-align:center;">
-    <a href="insertitem.jsp" class="see-more-btn">See More</a>
-    <!-- Horizontal Arrow under the button -->
-    <div class="arrow-right">&#8594;</div>
-  </div>
+ <div style="text-align:center;">
+  <a href="aboutus.jsp" class="see-more-btn">See More</a>
+  <div class="arrow-right">&#8594;</div>
 </div>
+ 
+ <style>
+  .see-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .see-more-btn:hover {
+    color: white;
+    background-color: blue;
+    border: 2px solid blue;
+  }
+</style>
+ 
 
 
 
@@ -114,7 +132,7 @@
     
 
     <div class="image-section">
-        <img src="images/m1.jpeg" alt="Computer Spare Parts">
+        <img src="images/m4.jpg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>

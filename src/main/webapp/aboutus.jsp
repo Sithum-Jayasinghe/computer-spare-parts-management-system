@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
  <link rel="stylesheet" type="text/css" href="css/nav.css"> <!-- Link to the external CSS -->
-  <link rel="stylesheet" type="text/css" href="css/item.css"> <!-- Link to the external CSS -->
+<link rel="stylesheet" type="text/css" href="css/about.css">
 </head>
 <body>
 
@@ -42,44 +42,37 @@
   </nav>
 </div>
 
-  
-<h2>Enter Item Details</h2>
 
-<form action="insertitemservlet" method="post">
-<table>
+    <div class="header">
+        <h1>About Us</h1>
+    </div>
 
-<tr>
-<td>Name :</td>
-<td><input type="text" name="name" required></td>
-</tr>
+    <div class="content">
+        <h2>Welcome to the Computer Spare Parts Management System</h2>
+        <p>
+            This system is designed to efficiently manage and track all types of computer spare parts, 
+            ensuring smooth operations for IT departments, service centers, and retailers.
+        </p>
 
-<tr>
-<td>Category :</td>
-<td><input type="text" name="category" required></td>
-</tr>
+        <h3>Key Features:</h3>
+        <ul>
+            <li>Inventory tracking for all parts.</li>
+            <li>Search and filter spare parts by model and category.</li>
+            <li>Low-stock alerts and restocking notifications.</li>
+            <li>Reports and history of item usage.</li>
+        </ul>
 
-<tr>
-<td>Quantity :</td>
-<td><input type="number" name="quantity" required></td>
-</tr>
+        <h3>Our Mission</h3>
+        <p>
+            To make spare parts management easier, smarter, and error-free by offering an intuitive digital platform.
+        </p>
 
-<tr>
-<td>Price :</td>
-<td><input type="number" name="price" required></td>
-</tr>
-
-<tr>
-<td>Date :</td>
-<td><input type="date" name="date" required></td>
-</tr>
-
-<tr>
-<td colspan="2"><input type="submit" value="Submit Item"></td>
-</tr>
-
-
-</table>
-</form>
+        <h3>Contact Us</h3>
+        <p>
+            <strong>Email:</strong> support@sparepartsmanager.com<br>
+            <strong>Phone:</strong> +94 77 123 4567
+        </p>
+    </div>
 
 </body>
 </html>

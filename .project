@@ -28,4 +28,21 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/webapp/images/m3.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m3.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m4.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m4.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m5.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m5.jpg</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

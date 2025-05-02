@@ -16,10 +16,10 @@
     <div class="nav-container">
       <!-- Left Navigation Links -->
       <div class="nav-links-left">
-        <a href="insertfeedback.jsp">Feedback</a>
-        <a href="insertitem.jsp">Item</a>
+       <a href="insertitem.jsp">Item</a>
+         <a href="insertsupplier.jsp">Supplier</a>
         <a href="insertpayment.jsp">Payment</a>
-        <a href="insertsupplier.jsp">Supplier</a>
+        <a href="insertfeedback.jsp">Feedback</a>
         <a href="contactus.jsp">Contact Us</a>
       </div>
 
@@ -32,7 +32,8 @@
           <button class="dropdown-btn">Account ▾</button>
           <div class="dropdown-content">
             <a href="profile.jsp">Profile</a>
-            <a href="login.jsp">Login</a>
+             <a href="login.jsp">User Login</a>
+             <a href="login.jsp">Admin Login</a>
             <a href="home.jsp">Logout</a>
           </div>
         </div>
