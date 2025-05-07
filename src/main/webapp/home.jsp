@@ -55,27 +55,50 @@
 
 
 <!-- Slideshow Section (after navbar) -->
-<div class="slideshow-container">
+
+ <div class="slideshow-container">
   <img src="images/m5.jpg" class="slide-image" id="slideImage">
 </div>
 
 
-
- 
-
-
-
-<br><br><br><br><br><br>
+<br>
 
 <div>
   <!-- Page Title -->
-  <h1 style="text-align:center;">Welcome to the Computer Spare Parts Management System</h1>
+   <h1 class="slide-up" style="text-align:center;">
+    Welcome to the Computer Spare Parts Management System 
+  </h1>
 
   <!-- System Overview -->
-  <p style="text-align:center; max-width: 800px; margin: auto;">
+    <p class="slide-up" style="text-align:center; max-width: 800px; margin: auto;">
     This system helps manage and track the inventory of computer spare parts including components like hard drives, RAM, motherboards, power supplies, and more. 
-    You can add new items, manage payments, gather customer feedback, register suppliers, and maintain user records.
+    You can add new items, manage payments, gather customer feedback, register suppliers, and maintain user records. <br><br>
   </p>
+  
+  <!-- JavaScript for animation -->
+  <script>
+    window.addEventListener('load', function () {
+      const elements = document.querySelectorAll('.slide-up');
+
+      elements.forEach((el, index) => {
+        // Initial style
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(50px)';
+        el.style.transition = 'all 0.8s ease-out';
+
+        // Add 'show' effect with delay
+        setTimeout(() => {
+          el.style.opacity = '1';
+          el.style.transform = 'translateY(0)';
+        }, index * 300); // stagger delay
+      });
+    });
+  </script>
+  
+  
+  
+  
+  
 
  <div style="text-align:center;">
   <a href="aboutus.jsp" class="see-more-btn">See More</a>
@@ -85,10 +108,10 @@
  <style>
   .see-more-btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 15px 30px;
     color: blue;
     background-color: white;
-    border: 2px solid blue;
+    border: 5px solid blue;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -108,7 +131,7 @@
 
 
 
-<br><br><br><br><br>
+<br><br>
 
 
  

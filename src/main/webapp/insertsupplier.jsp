@@ -46,41 +46,85 @@
 
 <h2>Enter supplier Details</h2>
 
-<form action="insertsupplierservlet" method="post">
-<table>
+<!-- Animated Container -->
+<div id="supplierForm" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out;">
 
-<tr>
-<td>Name :</td>
-<td><input type="text" name="name" required></td>
-</tr>
+  <form action="insertsupplierservlet" method="post"
+        style="margin: auto; width: 100%; max-width: 600px; background-color: #fff;
+               padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
 
-<tr>
-<td>Number :</td>
-<td><input type="text" name="number" required></td>
-</tr>
+    <!-- Image inside the form -->
+    <div style="text-align: center; margin-bottom: 20px;">
+      <img src="images/m3.jpg" alt="Supplier Form Banner"
+           style="max-width: 100%; height: auto; border-radius: 8px;">
+    </div>
 
-<tr>
-<td>Address :</td>
-<td><input type="text" name="address" required></td>
-</tr>
+    <table style="margin: auto; border-spacing: 10px; width: 100%;">
 
-<tr>
-<td>Category :</td>
-<td><input type="text" name="category" required></td>
-</tr>
+      <tr>
+        <td>Name :</td>
+        <td><input type="text" name="name" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
-<tr>
-<td>Company :</td>
-<td><input type="text" name="company" required></td>
-</tr>
+      <tr>
+        <td>Number :</td>
+        <td><input type="text" name="number" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
-<tr>
-<td colspan="2"><input type="submit" value="Submit"></td>
-</tr>
+      <tr>
+        <td>Address :</td>
+        <td><input type="text" name="address" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
+      <tr>
+        <td>Category :</td>
+        <td><input type="text" name="category" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
-</table>
-</form>
+      <tr>
+        <td>Company :</td>
+        <td><input type="text" name="company" required style="width: 100%; padding: 8px;"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" style="text-align: center; padding-top: 10px;">
+          <input type="submit" value="Submit" class="submit-btn">
+        </td>
+      </tr>
+
+    </table>
+  </form>
+
+  <style>
+    .submit-btn {
+      padding: 10px 25px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+  </style>
+
+</div>
+
+<!-- JavaScript Animation -->
+<script>
+  window.addEventListener('load', () => {
+    const form = document.getElementById('supplierForm');
+    setTimeout(() => {
+      form.style.opacity = '1';
+      form.style.transform = 'translateY(0)';
+    }, 150);
+  });
+</script>
 
 
 </body>

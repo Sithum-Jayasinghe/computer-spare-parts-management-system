@@ -45,41 +45,85 @@
   
 <h2>Enter Item Details</h2>
 
-<form action="insertitemservlet" method="post">
-<table>
+<!-- Animated Container for Insert Item Form -->
+<div id="formContainer" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out;">
 
-<tr>
-<td>Name :</td>
-<td><input type="text" name="name" required></td>
-</tr>
+  <form action="insertitemservlet" method="post"
+        style="margin: auto; width: 100%; max-width: 600px; background-color: #fff;
+               padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
 
-<tr>
-<td>Category :</td>
-<td><input type="text" name="category" required></td>
-</tr>
+    <!-- Image inside the form -->
+    <div style="text-align: center; margin-bottom: 20px;">
+      <img src="images/m3.jpg" alt="Item Form Banner"
+           style="max-width: 100%; height: auto; border-radius: 8px;">
+    </div>
 
-<tr>
-<td>Quantity :</td>
-<td><input type="number" name="quantity" required></td>
-</tr>
+    <table style="margin: auto; border-spacing: 10px; width: 100%;">
 
-<tr>
-<td>Price :</td>
-<td><input type="number" name="price" required></td>
-</tr>
+      <tr>
+        <td style="padding: 10px;">Name :</td>
+        <td style="padding: 10px;"><input type="text" name="name" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
-<tr>
-<td>Date :</td>
-<td><input type="date" name="date" required></td>
-</tr>
+      <tr>
+        <td style="padding: 10px;">Category :</td>
+        <td style="padding: 10px;"><input type="text" name="category" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
-<tr>
-<td colspan="2"><input type="submit" value="Submit Item"></td>
-</tr>
+      <tr>
+        <td style="padding: 10px;">Quantity :</td>
+        <td style="padding: 10px;"><input type="number" name="quantity" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
+      <tr>
+        <td style="padding: 10px;">Price :</td>
+        <td style="padding: 10px;"><input type="number" name="price" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
-</table>
-</form>
+      <tr>
+        <td style="padding: 10px;">Date :</td>
+        <td style="padding: 10px;"><input type="date" name="date" required style="width: 100%; padding: 8px;"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" style="text-align: center; padding-top: 10px;">
+          <input type="submit" value="Submit Item" class="submit-btn">
+        </td>
+      </tr>
+
+    </table>
+  </form>
+
+  <!-- Submit Button Styling -->
+  <style>
+    .submit-btn {
+      padding: 10px 25px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+  </style>
+
+</div>
+<!-- JavaScript Animation -->
+<script>
+  window.addEventListener('load', () => {
+    const form = document.getElementById('formContainer');
+    setTimeout(() => {
+      form.style.opacity = '1';
+      form.style.transform = 'translateY(0)';
+    }, 150);
+  });
+</script>
 
 </body>
 </html>

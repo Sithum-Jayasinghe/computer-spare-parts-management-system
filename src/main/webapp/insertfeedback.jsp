@@ -44,50 +44,94 @@
 
 <h2>Enter Feedback Details</h2>
 
-<form action="insertfeedbackservlet" method="post">
-  <table>
+<!-- Animated Container for Feedback Form -->
+<div id="feedbackForm" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out;">
 
-    <tr>
-      <td>Name:</td>
-      <td><input type="text" name="name" required></td>
-    </tr>
+  <form action="insertfeedbackservlet" method="post"
+        style="margin: auto; width: 100%; max-width: 600px; background-color: #fff;
+               padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
 
-    <tr>
-      <td>Email:</td>
-      <td><input type="email" name="email" required></td>
-    </tr>
+    <!-- Image inside the form -->
+    <div style="text-align: center; margin-bottom: 20px;">
+      <img src="images/m3.jpg" alt="Feedback Form Banner"
+           style="max-width: 100%; height: auto; border-radius: 8px;">
+    </div>
 
-    <tr>
-      <td>User Type:</td>
-      <td>
-        <select name="type" required>
-          <option value="">Select Type</option>
-          <option value="Customer">Customer</option>
-          <option value="Vendor">Vendor</option>
-          <option value="Visitor">Visitor</option>
-          <option value="Other">Other</option>
-        </select>
-      </td>
-    </tr>
+    <table style="margin: auto; border-spacing: 10px; width: 100%;">
 
-    <tr>
-      <td>Rating (1-5):</td>
-      <td><input type="number" name="rating" min="1" max="5" required></td>
-    </tr>
+      <tr>
+        <td style="padding: 10px;">Name:</td>
+        <td style="padding: 10px;"><input type="text" name="name" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
-    <tr>
-      <td>Message:</td>
-      <td><textarea name="message" rows="3" cols="30" placeholder="Enter your feedback here..." required></textarea></td>
-    </tr>
+      <tr>
+        <td style="padding: 10px;">Email:</td>
+        <td style="padding: 10px;"><input type="email" name="email" required style="width: 100%; padding: 8px;"></td>
+      </tr>
 
-    <tr>
-      <td colspan="2" style="text-align: center;">
-        <input type="submit" value="Submit Feedback">
-      </td>
-    </tr>
+      <tr>
+        <td style="padding: 10px;">User Type:</td>
+        <td style="padding: 10px;">
+          <select name="type" required style="width: 100%; padding: 8px;">
+            <option value="">Select Type</option>
+            <option value="Customer">Customer</option>
+            <option value="Vendor">Vendor</option>
+            <option value="Visitor">Visitor</option>
+            <option value="Other">Other</option>
+          </select>
+        </td>
+      </tr>
 
-  </table>
-</form>
+      <tr>
+        <td style="padding: 10px;">Rating (1-5):</td>
+        <td style="padding: 10px;"><input type="number" name="rating" min="1" max="5" required style="width: 100%; padding: 8px;"></td>
+      </tr>
+
+      <tr>
+        <td style="padding: 10px;">Message:</td>
+        <td style="padding: 10px;"><textarea name="message" rows="3" cols="30" placeholder="Enter your feedback here..." required style="width: 100%; padding: 8px;"></textarea></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" style="text-align: center; padding-top: 10px;">
+          <input type="submit" value="Submit Feedback" class="submit-btn">
+        </td>
+      </tr>
+
+    </table>
+  </form>
+
+  <!-- Submit Button Styling -->
+  <style>
+    .submit-btn {
+      padding: 10px 25px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+  </style>
+
+</div>
+
+<!-- JavaScript Animation -->
+<script>
+  window.addEventListener('load', () => {
+    const form = document.getElementById('feedbackForm');
+    setTimeout(() => {
+      form.style.opacity = '1';
+      form.style.transform = 'translateY(0)';
+    }, 150);
+  });
+</script>
 
 
 </body>

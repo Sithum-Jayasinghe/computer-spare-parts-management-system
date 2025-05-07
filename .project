@@ -44,5 +44,20 @@
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m5.jpg</locationURI>
 		</link>
+		<link>
+			<name>src/main/webapp/images/m6.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m6.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m7.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m7.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m8.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m8.jpg</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

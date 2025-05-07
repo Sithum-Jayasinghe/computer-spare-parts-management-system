@@ -47,64 +47,63 @@
 
 <br><br><br>
 
-<form action="userinsertservlet" method="post">
-<table>
 
-<tr>
-<td>Name :</td>
-<td><input type="text" name="name" required></td>
-</tr>
+<!-- Hall Page Image with Form Inside -->
+<div style="position: relative; text-align: center; margin-top: 20px;">
+  <!-- Image -->
+  <img src="images/m3.jpg" alt="Hall Page" style="width: 100%; max-width: 1200px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
-<tr>
-<td>Email :</td>
-<td><input type="email" name="gmail" required></td>
-</tr>
+  <!-- Form inside the image -->
+  <form action="userinsertservlet" method="post" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(255, 255, 255, 0.7); padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); width: 60%; max-width: 600px;">
+    <table>
 
-<tr>
-<td>Password :</td>
-<td><input type="password" name="password" required></td>
-</tr>
+      <tr>
+        <td>Name :</td>
+        <td><input type="text" name="name" required></td>
+      </tr>
 
-<tr>
-<td>Phone :</td>
-<td><input type="text" name="phone" required></td>
-</tr>
+      <tr>
+        <td>Email :</td>
+        <td><input type="email" name="gmail" required></td>
+      </tr>
 
+      <tr>
+        <td>Password :</td>
+        <td><input type="password" name="password" required></td>
+      </tr>
 
-<tr>
-<td colspan="2"><input type="submit" value="Submit"></td>
-</tr>
+      <tr>
+        <td>Phone :</td>
+        <td><input type="text" name="phone" required></td>
+      </tr>
 
+      <tr>
+        <td colspan="2"><input type="submit" value="Submit"></td>
+      </tr>
 
-</table>
+    </table>
 
-<h3 style="text-align: center; font-size: 18px; color: #003366; margin-top: 20px;">
-  If you are already registered, 
-  <a href="login.jsp" style="color: #003366; text-decoration: none; font-weight: bold; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; padding: 2px 5px;">
-    please log in
-  </a>.
-</h3>
+    <h3 style="text-align: center; font-size: 18px; color: #003366; margin-top: 20px;">
+      If you are already registered, 
+      <a href="login.jsp" style="color: #003366; text-decoration: none; font-weight: bold; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; padding: 2px 5px;">
+        please log in
+      </a>.
+    </h3>
 
-<style>
-  a:hover {
-    color: red; /* Text turns red on hover */
-    background-color: yellow; /* Dark blue background on hover */
-    transform: scale(1.1); /* Slightly enlarges the text */
-    border-radius: 6px; /* Rounded corners */
-    padding: 2px 5px; /* Adds padding to create a background effect */
-  }
-</style>
-
-
-
-
-
-
-
-
-
+    <style>
+      a:hover {
+        color: red;
+        background-color: yellow;
+        transform: scale(1.1);
+        border-radius: 6px;
+        padding: 2px 5px;
+      }
+    </style>
+  </form>
+</div>
 
 
-</form>
+
+
 </body>
 </html>
