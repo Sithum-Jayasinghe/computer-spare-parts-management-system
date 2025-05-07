@@ -1,0 +1,51 @@
+:root {
+  --midnight-blue: #151E3D;         
+  --midnight-hover: #0f2451;       
+  --light-bg: #f5f7fa;
+  --text-color: #ffffff;
+}
+
+/* General body styles except nav and slideshow */
+body {
+  background-color: var(--midnight-blue);
+  color: var(--text-color);
+}
+
+/* Apply only to text elements excluding navbar and slideshow */
+h1, p, .description p {
+  color: var(--text-color);
+}
+
+/* Buttons */
+.see-more-btn,
+.hover-button {
+  background-color: var(--light-bg);
+  border: 3px solid var(--midnight-blue);
+  color: var(--midnight-blue);
+  transition: 0.3s;
+}
+
+.see-more-btn:hover,
+.hover-button:hover {
+  background-color: var(--midnight-hover);
+  color: white;
+  border-color: var(--midnight-hover);
+}
+
+/* Grid image section descriptions */
+.image-section {
+  background-color: #212d63; /* Slightly lighter midnight tone */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Remove unwanted default blue inline style */
+a {
+  color: #a3c0ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}

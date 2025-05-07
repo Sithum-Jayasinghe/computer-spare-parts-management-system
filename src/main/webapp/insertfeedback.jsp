@@ -48,7 +48,7 @@
 <div id="feedbackForm" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out;">
 
   <form action="insertfeedbackservlet" method="post"
-        style="margin: auto; width: 100%; max-width: 600px; background-color: #fff;
+        style="margin: auto; width: 100%; max-width: 600px; background-color: #e6f0ff;
                padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
 
     <!-- Image inside the form -->

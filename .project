@@ -30,6 +30,61 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>src/main/webapp/css/m15.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m15.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/homepage.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/homepage.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m10.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m10.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m11.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m11.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m12.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m12.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m13.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m13.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m14.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m14.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m16.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m16.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m17.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m17.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m18.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m18.png</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m19.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m19.jpg</locationURI>
+		</link>
+		<link>
 			<name>src/main/webapp/images/m3.jpg</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m3.jpg</locationURI>
@@ -58,6 +113,11 @@
 			<name>src/main/webapp/images/m8.jpg</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m8.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/images/m9.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/computer-spare-parts-management-system/src/main/webapp/images/m9.jpg</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

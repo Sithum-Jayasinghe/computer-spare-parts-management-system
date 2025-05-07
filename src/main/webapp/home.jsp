@@ -10,8 +10,11 @@
   <link rel="stylesheet" type="text/css" href="css/footer.css"> <!-- Link to the external CSS -->
    <link rel="stylesheet" type="text/css" href="css/banner.css"> <!-- Link to the external CSS -->
     <link rel="stylesheet" type="text/css" href="css/homebar.css"> <!-- Link to the external CSS -->
+      <link rel="stylesheet" type="text/css" href="css/home.css"> <!-- Link to the external CSS -->
 </head>
 <body>
+
+
 
 
 <!-- Navigation Bar -->
@@ -57,13 +60,13 @@
 <!-- Slideshow Section (after navbar) -->
 
  <div class="slideshow-container">
-  <img src="images/m5.jpg" class="slide-image" id="slideImage">
+  <img src="images/m9.jpg" class="slide-image" id="slideImage">
 </div>
 
 
 <br>
 
-<div>
+
   <!-- Page Title -->
    <h1 class="slide-up" style="text-align:center;">
     Welcome to the Computer Spare Parts Management System 
@@ -138,7 +141,7 @@
  <!-- First Row: 4 images -->
 <div class="image-grid">
     <div class="image-section">
-        <img src="images/m1.jpeg" alt="Computer Spare Parts">
+        <img src="images/m11.jpg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>
@@ -146,7 +149,7 @@
     </div>
 
     <div class="image-section">
-        <img src="images/m2.jpeg" alt="Computer Spare Parts">
+        <img src="images/m12.jpg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>
@@ -155,7 +158,7 @@
     
 
     <div class="image-section">
-        <img src="images/m4.jpg" alt="Computer Spare Parts">
+        <img src="images/m13.jpg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>
@@ -163,7 +166,7 @@
     </div>
 
     <div class="image-section">
-        <img src="images/m1.jpeg" alt="Computer Spare Parts">
+        <img src="images/m14.jpg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>
@@ -174,7 +177,7 @@
  
     <!-- Second Row: 4 images -->
     <div class="image-section">
-        <img src="images/m1.jpeg" alt="Computer Spare Parts">
+        <img src="images/m10.jpg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>
@@ -182,7 +185,7 @@
     </div>
 
     <div class="image-section">
-        <img src="images/m1.jpeg" alt="Computer Spare Parts">
+        <img src="images/m16.jpg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>
@@ -190,7 +193,7 @@
     </div>
 
     <div class="image-section">
-        <img src="images/m1.jpeg" alt="Computer Spare Parts">
+        <img src="images/m17.jpg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>
@@ -198,7 +201,7 @@
     </div>
 
     <div class="image-section">
-        <img src="images/m1.jpeg" alt="Computer Spare Parts">
+        <img src="images/m19.jpg" alt="Computer Spare Parts">
         <div class="description">
             <p>Explore high-quality computer spare parts including RAM, SSDs, motherboards, and more.</p>
             <a href="insertitem.jsp" class="hover-button">View Items</a>

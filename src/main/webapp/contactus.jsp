@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="css/nav.css"> <!-- Link to the external CSS -->
 <link rel="stylesheet" type="text/css" href="css/contact.css"> <!-- Link to the external CSS -->
+  <link rel="stylesheet" type="text/css" href="css/background.css"> <!-- Link to the external CSS -->
 </head>
 <body>
 

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
  <link rel="stylesheet" type="text/css" href="css/nav.css"> <!-- Link to the external CSS -->
   <link rel="stylesheet" type="text/css" href="css/item.css"> <!-- Link to the external CSS -->
+   <link rel="stylesheet" type="text/css" href="css/background.css"> <!-- Link to the external CSS -->
 </head>
 <body>
 
@@ -49,7 +50,7 @@
 <div id="formContainer" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out;">
 
   <form action="insertitemservlet" method="post"
-        style="margin: auto; width: 100%; max-width: 600px; background-color: #fff;
+        style="margin: auto; width: 100%; max-width: 600px; background-color: #e6f0ff;
                padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
 
     <!-- Image inside the form -->
@@ -90,9 +91,16 @@
           <input type="submit" value="Submit Item" class="submit-btn">
         </td>
       </tr>
+      
+  
+      
 
     </table>
   </form>
+
+
+
+
 
   <!-- Submit Button Styling -->
   <style>

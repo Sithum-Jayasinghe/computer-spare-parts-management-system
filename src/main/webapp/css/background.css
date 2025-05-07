@@ -1,0 +1,59 @@
+/* form-style.css */
+
+/* Form container */
+form {
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  background-color: #e6f0ff; /* Light blue background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Image inside the form */
+form img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Table layout */
+form table {
+  width: 100%;
+  border-spacing: 10px;
+  margin: auto;
+}
+
+/* Table cells */
+form td {
+  padding: 10px;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="number"],
+form input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: #191970; /* Midnight blue */
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0f2451;
+}
